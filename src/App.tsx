@@ -1,4 +1,5 @@
 import './App.css';
+import InputField from './components/state/task1/Form';
 // import FormHandling2 from './components/state/task1/FormHandling2';
 // import Formhandling from './components/state/task1/Formhandling';
 // import Card from './components/props/task2/Card';
@@ -7,6 +8,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <InputField/>
       {/* <Profile name='James' age={7} bio='Hey i am an intern at iVoyant'/>
       <Profile name='John' bio='Hey i am an intern at iVoyant'/>
       <Card>
